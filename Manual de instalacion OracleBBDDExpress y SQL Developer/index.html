@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual de instalacion</title>
+</head>
+<link rel="stylesheet" href="css/style index.css">
+
+<body>
+  <h1 class="header">Manual de instalacion BBDD Oracle Express y Oracle SQL Developer</h1>
+  <div class="bar-nav">
+    <a id="hexenhammer" href=""><strong>Inicio</strong></li>
+      <a id="hexenhammer" href="#ode"><strong>Oracle Database Express</strong></li>
+        <a id="hexenhammer" href="#osqld"><strong>Oracle SQL Developer</strong></a>
+  </div>
+  <img id="titleimg" src="imagenes/OracleBBDDExpress + Oracle SQL Developer.png" height="200" />
+  <h1>Introducción</h1>
+  <p>Esta es una guía paso a paso, diseñada para aquellos que no tienen experiencia previa en la instalación de bases de
+    datos. Aquí explicaremos de manera sencilla cómo instalar <strong>Oracle Database Express Edition</strong>, una
+    versión gratuita y
+    ligera del sistema de gestión de bases de datos Oracle. Además, también veremos cómo instalar <strong>Oracle SQL
+      Developer</strong>,
+    una herramienta gráfica que facilita la administración y consulta de la base de datos. <br><br>
+    <strong>Oracle Database Express</strong> permite almacenar y gestionar datos sin necesidad de invertir en licencias
+    costosas. <strong>SQL Developer</strong>
+    , por otro lado, proporciona una interfaz gráfica que permite interactuar con la base de datos sin
+    necesidad de escribir comandos complejos. <br><br>
+    Con esta guía, tendrás todo listo para comenzar a trabajar con <strong>Oracle Database Express Edition</strong> en
+    cuestión de minutos.
+  </p>
+  <section id="ode">
+    <h1>Oracle Database Express</h1>
+  </section>
+  <h2>Descarga del Software</h2>
+  <p>Para descargar Oracle Database Express Edition, acceda al siguiente enlace:
+    <a href="https://www.oracle.com/es/database/technologies/xe-downloads.html"><strong>Oracle Database XE</strong></a>
+  </p>
+  <p>Seleccione la primera opción si utiliza el sistema operativo Windows.<br>
+    <img src="imagenes/Imagen1.png" alt="Imagen1">
+    <br><br>El archivo descargado será un paquete
+    comprimido en formato <strong>.zip</strong>.<br>
+    <img src="imagenes/Imagen2.png" alt="Imagen2">
+  </p>
+  <h2>Instalacion del Software</h2>
+  <ol>
+    <li>
+      <p><strong>Extraccion de archivos:</strong> Una vez completada la descarga, descomprima el archivo .zip que
+        contiene
+        la distribución de Oracle Database Express Edition.</p>
+    </li>
+    <img src="imagenes/Imagen3.png" alt="imagen3">
+    <li>
+      <p><strong>Ejecución del instalador:</strong>Acceda a la carpeta extraída y ejecute el archivo setup.exe con
+        permisos de administrador.</p>
+    </li>
+    <img src="imagenes/Imagen4.png" alt="imagen4">
+    <li>
+      <p><strong>Proceso de instalación:</strong> <br>
+      <ul>
+        <li>
+          <p>En la primera ventana del asistente de instalación, haga clic en "Siguiente".</p>
+          <img src="imagenes/Imagen5.png" alt="Imagen5">
+        </li>
+        <li>
+          <p>Lea y acepte los términos y condiciones del software.</p>
+          <img src="imagenes/Imagen6.png" alt="imagen6">
+        </li>
+        <li>
+          <p>Se le dará la opción de cambiar la ubicación de la instalación. Se recomienda dejar la ruta predeterminada,
+            pero puede modificarla según sus necesidades.</p>
+          <img src="imagenes/Imagen7.png" alt="Imagen7">
+        </li>
+        <li>
+          <p>Establezca una contraseña para los usuarios <strong>SYS, SYSTEM y PDBADMIN</strong>. En esta guía
+            utilizaremos la contraseña
+            "123456" (no se recomienda en entornos productivos).</p>
+          <img src="imagenes/Imagen8.png" alt="Imagen8">
+        </li>
+        <li>
+          <p>Revise el resumen de las rutas de instalación y haga clic en "Instalar".</p>
+          <img src="imagenes/Imagen9.png" alt="Imagen9"><br>
+          <img src="imagenes/Imagen10.png" alt="Imagen10">
+        </li>
+      </ul>
+      </p>
+    </li>
+  </ol>
+  <h2>Configuraciones Adicionales</h2>
+  <p>Durante el proceso de instalación, se le solicitará habilitar permisos de red a través del firewall del sistema.
+    Asegúrese de permitir el acceso cuando se le solicite.</p>
+  <img src="imagenes/Imagen11.png" alt="imagen11">
+  <h2>Finalizacion de la instalación</h2>
+  <p>Una vez concluida la instalación, haga clic en "Finalizar" y ejecute <strong>Oracle Database Express
+      Edition</strong> para verificar
+    su correcto funcionamiento. <br> <br>
+    <img src="imagenes/Imagen12.png" alt="Imagen12"><br>
+    <img src="imagenes/Imagen13.png" alt="Imagen13"><br><br>
+    Para iniciar sesión, ingrese el usuario y la contraseña establecidos durante la instalación. Si la autenticación es
+    exitosa, el sistema estará operativo.
+  </p> <br>
+  <img src="imagenes/Imagen14.png" alt="Imagen14">
+  <section id="osqld">
+    <h1>Instalación de SQL Developer</h1>
+  </section>
+  <h2>Descarga del Software</h2>
+  <p>Para la administración de la base de datos, descargue e instale Oracle SQL Developer desde el siguiente enlace:
+    <a href="https://www.oracle.com/database/sqldeveloper/technologies/download/"><strong>Oracle SQL
+        Developer</strong></a>
+  </p>
+  <ol>
+    <li>
+      <p>Descargue la versión que incluye el kit de desarrollo de Java <strong>(JDK)</strong> 17 si no lo tiene
+        previamente instalado.
+      </p> <br>
+      <img src="imagenes/Imagen15.png" alt="Imagen15"><br><br>
+      <img src="imagenes/Imagen16.png" alt="Imagen16">
+    </li>
+    <li>
+      <p>Extraiga el contenido del archivo <strong>.zip</strong> y mueva la carpeta a una ubicación conveniente, como la
+        carpeta "Documentos".</p> <br>
+      <img src="imagenes/Imagen17.png" alt="Imagen17">
+    </li>
+    <li>
+      <p><strong>(Opcional)</strong> Cree un acceso directo del ejecutable para facilitar su acceso. Se recomienda
+        enviarlo al escritorio.</p> <br>
+      <img src="imagenes/Imagen18.png" alt="Imagen18"><br>
+      <img src="imagenes/Imagen19.png" alt="Imagen19">
+
+    </li>
+    <li>
+      <p>Abra <strong>SQL Developer</strong> por primera vez:</p>
+      <ul>
+        <li>
+          <p>Si aparece una ventana preguntando si desea exportar preferencias de una instalación anterior, seleccione
+            "No" si parte de una configuración nueva.</p> <br>
+          <img src="imagenes/Imagen20.png" alt="Imagen20"> <br>
+          <img src="imagenes/Imagen21.png" alt="Imagen21">
+        </li>
+        <li>
+          <p>Cuando se le consulte si desea permitir la monitorización del uso del software, desmarque la casilla y
+            "aceptar".</p><br>
+          <img src="imagenes/imagen22.png" alt="Imagen22"> <br>
+          <img src="imagenes/Imagen23.png" alt="Imagen23">
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <p>Con esto, la instalación y configuración de <strong>Oracle Database Express Edition</strong> y <strong>SQL
+      Developer</strong> estará completa y lista para su uso.</p>
+  <h2 class="footer">By Adrián Acevedo Reinoso</h2>
+</body>
+
+</html>
