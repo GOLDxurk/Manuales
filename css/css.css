@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgb(220, 255, 253);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    color: brown;
+    background-color: rgb(62, 209, 209);
+    text-align: center;
+    border-radius: 20px;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 30px auto;
+}
+
+li {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
